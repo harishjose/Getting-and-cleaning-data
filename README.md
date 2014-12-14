@@ -21,7 +21,7 @@ The requirements from the course are below.
 ## R Script run_analysis.R:
 The R script called run_analysis.R is used to perform the data cleaning and analysis. This is availabe at the github repository.
 
-The run_analysis first looks at the X, Y, Subject and Features data, and extracts the required data and merges them into one dataset called onedataset. 
+The run_analysis first looks at the X, Y, Subject and Features data, and extracts the required data and merges them into one dataset called onedataset. This required updating the column names with the required descriptive variable names.
 
 Using the reshape2() library, the run_analysis.R file creates a new dataset called tidydataset that is the independent tidy data set with the average of each variae for each variable. The script also generates this as a text file calle tidydataset.txt. This file is also available in my repository. 
 
